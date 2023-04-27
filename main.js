@@ -1,5 +1,5 @@
 const DEBUG = false;
-const RESIN_LIMIT = 160;
+const RESIN_LIMIT = 180;
 const RECHARGE_INTERVAL = 6;    //minutes; also update html input max="" if changed
 
 //Main
