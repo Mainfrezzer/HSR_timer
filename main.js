@@ -1,6 +1,6 @@
 const DEBUG = false;
 const RESIN_LIMIT = 160;
-const RECHARGE_INTERVAL = 8;    //minutes; also update html input max="" if changed
+const RECHARGE_INTERVAL = 6;    //minutes; also update html input max="" if changed
 
 //Main
 document.querySelector("#resin").focus();
