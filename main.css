@@ -1,6 +1,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    margin-bottom: 50px;    /*Fixes footer on small screens*/
+    margin-bottom: 150px;    /*Fixes footer on small screens*/
 }
 h1{
     font-size: 48px;
