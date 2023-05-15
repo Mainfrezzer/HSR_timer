@@ -21,7 +21,7 @@ function calculate(resin, start_time){
     document.querySelector("#current_resin").innerHTML = cur_res;
     document.querySelector("#refill_time").innerHTML =  H_cur + "h " + M_cur + "m " + S_cur + "s";
     document.querySelector("#refill_date").innerHTML = moment(start_time).add(H_start, "hours").add(M_start, "minutes").format("LT");
-    document.title =  cur_res + " Resin | " + H_cur + "h " + M_cur + "m " + " left";
+    document.title =  cur_res + " Trailblaze Power | " + H_cur + "h " + M_cur + "m " + " left";
 
     let titles = document.getElementsByClassName("title_top");
     for (let i = 0; i < titles.length; i++) {
